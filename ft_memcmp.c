@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 13:45:13 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/15 20:58:11 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:06 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)

@@ -6,13 +6,13 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 14:35:19 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/19 14:37:48 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:41:11 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_lstsize(t_list *lst)
+int	ft_lstsize(t_list *lst)
 {
 	int	i;
 
@@ -20,7 +20,7 @@ int ft_lstsize(t_list *lst)
 	while (lst)
 	{
 		i++;
-		lst = list->next;
+		lst = lst->next;
 	}
 	return (i);
 }

@@ -6,11 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 20:08:48 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/16 16:44:01 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:22 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)

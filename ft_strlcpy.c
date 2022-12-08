@@ -6,13 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:53:42 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/16 16:51:54 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:54:09 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)

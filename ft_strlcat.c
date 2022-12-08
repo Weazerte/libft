@@ -6,46 +6,42 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 19:53:01 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/18 16:13:28 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:57 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dest, const char *src, size_t size)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	i;
-	size_t	dest_len;
-	size_t	src_len;
+	size_t	dest_length;
+	size_t	src_length;
 
+	src_length = ft_strlen(src);
+	dest_length = ft_strlen(dst);
 	i = 0;
-	dest_len = strlen(dest);
-	src_len = strlen(src);
-	if (size == 0 || size <= dest_len)
-		return (src_len + size);
-	while (src[i] && (i + dest_len) < (size - 1))
+	if (dest_length < size - 1 && size > 0)
 	{
-		dest[dest_len + i] = src[i];
-		i++;
+		while (src[i] && (dest_length + i) < (size - 1))
+		{
+			dst[dest_length + i] = src[i];
+			i++;
+		}
+		dst[dest_length + i] = 0;
 	}
-	dest[dest_len + i] = '\0';
-	return (dest_len + src_len);
+	if (dest_length >= size)
+		dest_length = size;
+	return (dest_length + src_length);
 }
 
 // int main (void)
 // {
-//     char    str[] = "bonjour";
-//     char    str2[] = "hello world";
+//     char    str[] = "rrrrrrrrrrrrrrr";
 //     int    i;
-//     int    j;
-//     char    str3[] = "bonjour";
-//     char    str4[] = "hello world";
 
-//     i = ft_strlcat(str, str2, 7);
-//     j = strlcat(str3, str4, 7);
-//     printf("%s\n", str);
-//     printf("%d\n", i);
-//     printf("%s\n", str3);
-//     printf("%d\n", j);
+//     i = ft_strlcat(str,"lorem ipsum dolor sit amet", 5);
+//     printf("%s", str);
+//     printf("%d", i);
 //     return (0);
 // }

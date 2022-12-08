@@ -6,16 +6,11 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 19:04:16 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/18 19:22:41 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/19 19:38:54 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-void	iter(unsigned int i, char *s)
-{
-	*s += i;
-}
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 17:26:33 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/15 19:15:01 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:54:56 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
 #include "libft.h"
 
 int	ft_tolower(int c)

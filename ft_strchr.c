@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 17:33:36 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/17 13:46:50 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:41 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)

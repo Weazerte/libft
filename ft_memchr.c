@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 13:12:23 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/15 19:13:32 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:03 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

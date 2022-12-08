@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:30:27 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/15 19:58:20 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:16 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
 #include "libft.h"
 
 void	*ft_memset(void *s, int c, int n)

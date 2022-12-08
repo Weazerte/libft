@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/13 17:09:35 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/18 15:32:35 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:54:49 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 static int	ft_isset(const char s, const char *set)
@@ -40,7 +38,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		start++;
 	if (s1[start] == '\0')
 		return (ft_strdup(""));
-	end = strlen((char *)s1);
+	end = ft_strlen((char *)s1);
 	while (end > start && ft_isset(s1[end - 1], set))
 		end--;
 	str = (char *)malloc(((end - start) + 1) * sizeof(*s1));

@@ -6,11 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/20 14:21:38 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/15 20:07:13 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:28 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 static void	ft_putchar(char c, int fd)

@@ -6,13 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/26 18:08:07 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/15 19:14:20 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:46 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "libft.h"
 
 char	*ft_strdup(char *src)

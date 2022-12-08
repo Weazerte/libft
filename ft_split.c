@@ -6,12 +6,10 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/13 18:34:03 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/18 19:21:54 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:53:35 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 static int	ft_issep(char cmp, char c)

@@ -6,13 +6,13 @@
 /*   By: eaubry <eaubry@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 20:09:01 by eaubry            #+#    #+#             */
-/*   Updated: 2022/11/19 14:49:30 by eaubry           ###   ########.fr       */
+/*   Updated: 2022/11/21 11:38:28 by eaubry           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	new->next = *lst;
 	*lst = new;
